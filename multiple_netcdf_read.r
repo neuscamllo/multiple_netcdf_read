@@ -1,20 +1,20 @@
-# 'multiple_netcdf_read': Function to read and extract information from multiple netcdf files, downloaded for example from copernicus.#
-#                                                                                                                                     #
-# Neus Campanyà-Llovet. (2024). neuscamllo/multiple_netcdf_read: v1.0.0 (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.13992594     #
-#                                                                                                                                     #
-# INPUT:                                                                                                                              #   
-#     -   yearf : first year of the time series                                                                                       #
-#     -   yearl : last year of the time series                                                                                        #
-#     -   file_name: name of the part of the file that does not vary, constant throughout the files.                                  #
-#                     It often corresponds with the name of the model and variable of interest.                                       #
-#     -   wd: working directory. Folder where files have been stored.                                                                 #
-#                                                                                                                                     #
-# OUTPUT:                                                                                                                             #
-#     -   List of dataframes where each element contains the extracted variables corresponding to each year:                          #
-#                 Latitude, Longitude, Depth, Mean Thetao                                                                             #
-#                                                                                                                                     #        
-# Library requirements: ncdf4                                                                                                         #                    
-#######################################################################################################################################
+# 'multiple_netcdf_read': Function to read and extract information from multiple netcdf files, downloaded for example from copernicus.          #
+#                                                                                                                                               #
+# CITATION: Neus Campanyà-Llovet. (2024). neuscamllo/multiple_netcdf_read: v1.0.0 (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.13992594     #
+#                                                                                                                                               #
+# INPUT:                                                                                                                                        #   
+#     -   yearf : first year of the time series                                                                                                 #
+#     -   yearl : last year of the time series                                                                                                  #
+#     -   file_name: name of the part of the file that does not vary, constant throughout the files.                                            #
+#                     It often corresponds with the name of the model and variable of interest.                                                 #
+#     -   wd: working directory. Folder where files have been stored.                                                                           #
+#                                                                                                                                               #
+# OUTPUT:                                                                                                                                       #
+#     -   List of dataframes where each element contains the extracted variables corresponding to each year:                                    #
+#                 Latitude, Longitude, Depth, Mean Thetao                                                                                       #
+#                                                                                                                                               #        
+# Library requirements: ncdf4                                                                                                                   #                    
+#################################################################################################################################################
 
 
 multiple_netcdf_read <- function(yearf, yearl, file_name, wd){
