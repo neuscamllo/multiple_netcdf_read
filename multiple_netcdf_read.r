@@ -1,5 +1,7 @@
 # 'multiple_netcdf_read': Function to read and extract information from multiple netcdf files, downloaded for example from copernicus.#
-#                                                                                                                                     #          
+#                                                                                                                                     #
+# Neus Campanyà-Llovet. (2024). neuscamllo/multiple_netcdf_read: v1.0.0 (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.13992594     #
+#                                                                                                                                     #
 # INPUT:                                                                                                                              #   
 #     -   yearf : first year of the time series                                                                                       #
 #     -   yearl : last year of the time series                                                                                        #
