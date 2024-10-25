@@ -1,3 +1,6 @@
+Citation: Neus Campanyà-Llovet. (2024). neuscamllo/multiple_netcdf_read: v1.0.0 (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.13992594
+![image](https://github.com/user-attachments/assets/4e488e0e-6b11-439a-8c55-3f9e2e703e42)
+
 # multiple_netcdf_read
 Reading and extracting data from multiple netcdf files into R.
 
